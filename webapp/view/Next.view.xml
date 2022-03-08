@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="su.gurin.project1.controller.Next"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true">
+
+    <Page 
+        title="NextPageTitle"
+        showNavButton="true"
+        navButtonPress="onNavBack"> 
+
+        <ObjectHeader
+            title="{parameters>/id}"/>
+
+    </Page>
+
+</mvc:View>

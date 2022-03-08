@@ -1,0 +1,60 @@
+<mvc:View 
+    controllerName="su.gurin.project1.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m"
+    displayBlock="true">
+
+    <Page 
+        title="{i18n>title}">
+        
+        <headerContent>
+        
+            <Button 
+                text="{i18n>button1Text}" 
+                icon="sap-icon://hello-world" 
+                press=".onButton1Press"/>
+
+            <Button 
+                text="{i18n>button3Text}" 
+                press=".onOpenSettingsDialog"
+                icon="sap-icon://settings" 
+                class="sapUiTinyMarginBegin"/>
+
+            <Button 
+                text="Next Page" 
+                press=".onOpenNextPage"
+                icon="sap-icon://forward" 
+                class="sapUiTinyMarginBegin"/>
+
+        </headerContent>
+        
+        <content>
+
+            <Panel 
+                id="panel" 
+                headerText="PanelHeaderText" 
+                class="sapUiResponsiveMargin">
+
+                <content>
+                
+                    <Button 
+                        id="button2" 
+                        text="{i18n>button2Text}" 
+                        press="onButton2Press" />
+
+                    <Input 
+                        id="personName"                                    
+                        value = "{person>/name}" 
+                        valueLiveUpdate="true" 
+                        width="10rem" 
+                        class="sapUiTinyMarginBegin"/>
+                    
+                </content>
+                
+            </Panel>
+
+        </content>
+
+    </Page>
+
+</mvc:View>

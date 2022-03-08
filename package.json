@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@ui5/cli": "^2.14.2"
+  },
+  "name": "ui5-app-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangurin/ui5-app-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivangurin/ui5-app-template/issues"
+  },
+  "homepage": "https://github.com/ivangurin/ui5-app-template#readme",
+  "description": ""
+}
